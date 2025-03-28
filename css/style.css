@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Tiny5', Arial, Helvetica, sans-serif;
+    background-color: #d32f2f; 
+}
+
+h1{
+    text-decoration: underline;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+h1:hover{
+    color: #ffcc00;
+    text-shadow: 0 0 15px #000000;
+    scale: 1.15;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.pokedex {
+    display: flex;
+    width: 600px;
+    background-color: #f5f5f5;
+    border: 8px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.2);
+    overflow: hidden;
+}
+
+
+.pokedex-left {
+    width: 50%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 4px solid black;
+}
+
+h2{
+    color: #00ff00;
+    padding: 15px;
+    text-shadow: 0 0 10px #00ff00;
+    font-size: x-large;
+}
+
+
+.pokemon-img {
+    width: 210px;
+    height: 200px;
+    border: 4px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.pokemon-info {
+    background-color: #ffeb3b;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 80%;
+    text-align: center;
+}
+
+
+.pokedex-right {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+label{
+    margin-left: 30px;
+}
+
+
+button {
+    background-color: #ffcc00;
+    border: 2px solid black;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #ffaa00;
+    scale: 1.08;
+    color: white;
+}
+
+
+.pokemon-type {
+    display: inline-block;
+    background-color: #f00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+p{
+    color: #000000; 
+    padding: 15px;
+    text-shadow: 0 0 5px #ffffff;
+    font-weight: bolder;
+}
+
+
+audio{
+    height: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+#pokeball{
+    width:180px;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 10px;
+    padding: 10px;
+}
